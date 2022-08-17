@@ -1,0 +1,1078 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+
+.header{
+    margin: 0%;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+.box{
+    background-color: black;
+    width: 30%;
+    height: 50px;
+}
+.uber{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    position: absolute;
+    left: 120px;
+    top:15px;
+    text-decoration:none;
+    font-weight: 400;
+}
+.company{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    background-color: black;
+    font-size: 15px;
+    position: absolute;
+    left: 202px;
+    top: 19px;
+    border: unset;
+    font-weight: 500;
+}
+.safety{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    position: absolute;
+    left: 324px;
+    top: 21px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.help{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    position: absolute;
+    left: 393px;
+    top: 21px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.rider{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 67px;
+}
+
+.ridetext{
+    font-size: 52px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 98px;
+    left: 48px;
+
+}
+.upperdiv{
+    width: 577px;
+    height: 124px;
+    background-color: #ececec;
+    position: absolute;
+    left: 184px;
+    top: 134px;
+}
+.maindiv{
+    width: 577px;
+    height: 387px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 258px;
+    left: 184px;
+}
+.car{
+    position: absolute;
+    left: 131px;
+    top: 31px;
+}
+.ride{
+    position: absolute;
+    top: 57px;
+    left: 129px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.earn{
+    position: absolute;
+    left: 420px;
+    top: 31px;
+}
+.drive{
+    position: absolute;
+    top: 48px;
+    left: 403px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.deliver{
+    position: absolute;
+    top: 65px;
+    left: 406px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.blackdiv{
+    width: 61px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 253px;
+    left: 297px;
+}
+.request{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 51px;
+    font-weight: 500;
+    position: absolute;
+    top: -16px;
+    left: 45px;
+}
+.pickup{
+    width: 480px;
+    height: 52px;
+    position: absolute;
+    background-color:#f6f6f6;
+    position: absolute;
+    top: 392px;
+    left: 232px;
+
+}
+.destination{
+    width: 480px;
+    height: 52px;
+    position: absolute;
+    background-color:#f6f6f6;
+    position: absolute;
+    top: 453px;
+    left: 232px;
+}
+.pick{
+    background-color:#f6f6f6;
+    border: unset;
+    position: absolute;
+    left: 25px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.requestbutton{
+    width: 145px;
+    height: 48px;
+    position: absolute;
+    top: 286px;
+    left: 48px;
+    background-color: black;
+    border-radius: 9px;
+}
+.schedulebutton{
+    width: 180px;
+    height: 47px;
+    position: absolute;
+    top: 285px;
+    left: 219px;
+    background-color:#f6f6f6;
+    border: unset;
+    border-radius: 9px;
+}
+.reqtext{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-decoration: none;
+    position: absolute;
+    top: 554px;
+    left: 254px;
+    text-decoration: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.reqtext2{
+    position: absolute;
+    top: 554px;
+    left: 425px;
+    text-decoration: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+.lowermaindiv{
+    width: 100%;
+    height:3000px;
+    position: absolute;
+    top: 1100px;
+    background-color: #FFFFFF;
+
+}
+.demo{
+        width: 50%;
+        height: 30%;   
+        position: absolute;
+        top: 710px;
+    }
+.seehowbutton{
+    width: 107px;
+    height: 48px;
+    position: absolute;
+    top: 893px;
+    left: 184px;
+    background-color: black;
+    border-radius: 9px;
+}    
+.seehowtext{
+    position: absolute;
+    top: 903px;
+    left: 206px;
+    text-decoration: none;
+    position: absolute;
+    text-decoration: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.business{
+    position: absolute;
+    top: 740px;
+    left: 181px;
+    font-size: 36px;
+    color: black;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+#way{
+  
+    position: absolute;
+    top: 820px;
+    left: 181px;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    line-height: 24px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.autodiv{
+    position: absolute;
+    top: 152px;
+    left: 183px;
+    width: 35%;
+    height: 25%;
+    background-color: white;
+}
+.autodiv2{
+    position: absolute;
+    top: 1252px;
+    left: 850px;
+    width: 30%;
+    height: 25%;
+    background-color:white;
+}
+.autoimg{
+    width: 25%;
+    position: absolute;
+    left: 24px;
+    top: 14px;
+
+}
+.autotext{
+    position: absolute;
+    left: 196px;
+    top: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+.afford{
+    position: absolute;
+    left: 196px;
+    top: 66px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+}
+.bike{
+    width: 25%;
+    position: absolute;
+    left: -34px;
+    top: 14px;
+}
+#moto{
+    position: absolute;
+    left: 124px;
+    top: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+#biketext{
+    position: absolute;
+    left: 124px;
+    top: 55px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+}
+.rentaldiv{
+    position: absolute;
+    top: 1465px;
+    left: 183px;
+    width: 35%;
+    height: 25%;
+    background-color : white;
+}
+#rentallogo
+{
+    width: 26%;
+    position: absolute;
+    left: 18px;
+    top: 35px;
+}
+#rentaltitle{
+    position: absolute;
+    left: 199px;
+    top: 16px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black; 
+}
+#rentaltext{
+    position: absolute;
+    left: 200px;
+    top: 55px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: black;
+}
+#intercitydiv{
+    position: absolute;
+    top: 1465px;
+    left: 804px;
+    width: 35%;
+    height: 25%;
+    background-color :white;
+}
+#intercityimage{
+    width: 29%;
+    left: 15px;
+    position: absolute;
+}
+#intercitytext{
+    position: absolute;
+    left: 173px;
+    top: 55px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: black;
+   
+}
+#intercitytitle{
+    position: absolute;
+    left: 171px;
+    top: 9px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+#arrow4{
+    position: absolute;
+    color: black;
+    left: 510px;
+    top: 100px;
+}
+#arrow3{
+    position: absolute;
+    color: black;
+    left: 517px;
+    top: 100px;
+}
+#arrow2{
+    position: absolute;
+    color: black;
+    left: 458px;
+    top: 100px;
+}
+#arrow1{
+    position: absolute;
+    left: 509px;
+    top: 109px;
+    color: black;
+}
+.focusediv{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-color :white;
+    top: 660px;
+}
+#safetyfocustext{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    position: absolute;
+    left: 183px;
+
+}
+.ridewithuber{
+    line-height: 44px;
+    position: absolute;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    left: 178px;
+    top: 23px;
+}
+#safetyhome{
+    position: absolute;
+    top: 130px;
+    left: 177px;
+    width: 37%;
+}
+#citiesshome{
+    position: absolute;
+    top: 130px;
+    left: 777px;
+    width: 37%;
+}
+.commitment{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 175px;
+}
+.setting{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 505px;
+    left: 775px; 
+}
+.commitmenttext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 547px;
+    left: 175px; 
+    letter-spacing: 0;
+}
+.appavailable{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 547px;
+    left: 775px; 
+    letter-spacing: 0;
+}
+.communityguidelines{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    letter-spacing: 0;
+    top: 647px;
+    left: 175px;
+    color: black; 
+}
+.seealltext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    letter-spacing: 0;
+    top: 647px;
+    left: 475px; 
+    color: black;
+}
+.viwealltext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    letter-spacing: 0;
+    top: 647px;
+    left: 775px; 
+    color: black;   
+}
+.aboutustitle{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 797px;
+    left: 175px; 
+    letter-spacing: 0;
+}
+.personimg{
+    position: absolute;
+    top: 780px;
+    left: 178px;
+}
+.noteimg{
+    position: absolute;
+    top: 780px;
+    left: 578px;
+}
+.newsroomtext{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 797px;
+    left: 578px; 
+    letter-spacing: 0;
+}
+.homeimg{
+    position: absolute;
+    top: 780px;
+    left: 978px;
+
+}
+.globelcitizentext{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 797px;
+    left: 978px; 
+    letter-spacing: 0;
+}
+.aboutustext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 847px;
+    left: 175px; 
+    letter-spacing: 0;
+}
+.seeannouncementtext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 847px;
+    left: 578px; 
+    letter-spacing: 0;
+}
+.readabouttext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 847px;
+    left: 978px; 
+    letter-spacing: 0;
+}
+.learnaboutlink{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 947px;
+    left: 175px; 
+    letter-spacing: 0; 
+    color: black;
+}
+.gotonewsroomlink{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 947px;
+    left: 578px; 
+    letter-spacing: 0; 
+    color: black;
+}
+.seeourpartenrshiplink{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 947px;
+    left: 978px; 
+    letter-spacing: 0; 
+    color: black;
+}
+.downloadappdiv{
+    position: absolute;
+    width: 100%;
+    background-color:#ececec;
+    height: 400px;
+    top: 1659px;
+}
+.appstext{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 178px;
+}
+.downloaddiv{
+    width: 560px;
+    height: 180px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 178px;
+    top: 120px;
+}
+.uberimg{
+
+    width: 25%;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+.driverapplink{
+    font-size: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    color: black;
+}
+.downloaddiv2{
+    width: 560px;
+    height: 180px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 778px;
+    top: 120px;
+}
+.downuberapp{
+    font-size: 24px;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    color: black;
+    text-decoration: none;
+}
+.downuberimg{
+    width: 25%;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+.signupdiv{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 2000px;
+}
+.signupdrivediv{
+ background-color: white;
+ position: absolute;
+ top: 45px;
+ left: 178px;   
+ width: 560px;
+ height: 110px;
+}
+.signupdrivetext{
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+#signupdrivearrow{
+    position: absolute;
+    left: 530px;
+
+    top: 43px
+    ;
+}
+.signuridediv{
+    background-color: white;
+ position: absolute;
+ top: 45px;
+ left: 778px;   
+ width: 560px;
+ height: 110px;
+
+}
+.signupridetext{
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;   
+    color: black;
+}
+#signupridearrow{
+    position: absolute;
+    left: 530px;
+
+    top: 43px
+    ;
+}
+.footerdiv{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    position: absolute;
+    top: 2220px;
+}
+.uberdiv{
+    background-color: black;
+    height: 150px;
+    position: absolute;
+    left: 180px;
+    top: 62px;
+    width: 100%;
+   
+}
+#uberfootertxt{
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: left;
+    line-height: 112px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration:unset;
+}
+#visithelink{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: left;
+    line-height: 112px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration:unset;
+    font-weight: 400;
+    position: absolute;
+    top: 50px;
+
+}
+.tablediv{
+    background-color: black;
+    height: 450px;
+    position: absolute;
+    left: 183px;
+    top: 265px;
+    width: 100%;
+   
+}
+.th-width{
+    width: 290px;
+    height: 100px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+
+}
+.dataclassheading{
+    width: 290px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+}
+.dataclass{
+    width: 290px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+    height: 34px;
+}
+.social{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    position: absolute;
+    top: 630px;
+    left: 177px;
+}
+.fbbutton{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: unset;
+    position: absolute;
+    top: 40px;
+
+}
+.socialimg{
+    width: 60%;
+}
+.twitrbutton{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: unset;
+    position: absolute;
+    top: 40px;
+    left: 47px;
+
+}
+.ytbutton{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: unset;
+    position: absolute;
+    top: 40px;
+    left: 104px;
+}
+.linkbutton{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: unset;
+    position: absolute;
+    top: 40px;
+    left: 154px;
+}
+.igbutton{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: unset;
+    position: absolute;
+    top: 40px;
+    left: 208px;
+}
+.socialimg2{
+    width: 20%;
+    position: absolute;
+    left: 10px;
+    top: 9px;
+
+}
+.globeenglish{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: unset;
+    position: absolute;
+    top: 40px;
+    left: 291px;
+}
+.english{
+    width: 290px;
+    height: 100px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white; 
+    position: absolute;
+    left: -81px;
+    top: -5px;
+}
+.kochi{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: unset;
+    position: absolute;
+    top: 40px;
+    left: 395px;
+}
+.kochitext{
+    width: 290px;
+    height: 100px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white; 
+    position: absolute;
+    left: -81px;
+    top: -5px;
+}
+.gplaybutton{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    border-radius: 5px;
+    border: #FFFFFF;
+    position: absolute;
+    top: 40px;
+    left: 898px;
+}
+.gplayimg{
+    width: 109%;
+}
+.applebutton{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    border-radius: 5px;
+    border: #FFFFFF;
+    position: absolute;
+    top: 38px;
+    left: 1026px;
+}
+.reference{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 750px;
+    left: 180px;
+}
+.ubertehtext{
+    font-size: 12px;
+    color: #AFAFAF;
+    font-weight: normal;
+    line-height: 20px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.privacydiv{
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 764px;
+    left: 1100px;
+}
+.privacytext{
+    font-size: 12px;
+    color: #AFAFAF;
+    font-weight: normal;
+    line-height: 20px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 90px;
+
+
+}
+.globeheader{
+    width: 4%;
+    height: 42px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    top: 12px;
+    left: 1038px;
+    
+}
+.globalheadimg{
+    position: absolute;
+    width: 34%;
+    top: 12px;
+    left: 19px;
+}
+.EN{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 47px;
+    top: -3px;
+}
+.products{
+    width: 101px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    top: 14px;
+    left: 1121px;
+}
+.dotimg{
+    width: 16%;
+    position: absolute;
+    left: 3px;
+    top: 7px;
+}
+.prodtext{
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: -7px;
+    font-size: 15px;
+}
+.login{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 1230px;
+    top: 14px;
+    border-radius: 10px;
+}
+.person{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 15%;
+}
+.logintext{
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: -7px;
+    font-size: 15px;
+}
+.signupbutton{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 14px;
+    left: 1320px;
+    font-size: 16px;
+}
